@@ -7,6 +7,11 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+
+/**
+ *
+ * Class tb_user
+ * */
 @Entity
 @Getter
 @Setter

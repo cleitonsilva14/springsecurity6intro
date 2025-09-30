@@ -8,9 +8,13 @@ import org.springframework.security.core.userdetails.UserDetails;
 import java.util.Collection;
 import java.util.Collections;
 
+/**
+ *
+ * implements UserDetails
+ * */
 public class User implements UserDetails {
 
-    private MyUser user;
+    private final MyUser user;
 
     public User(MyUser user){
         this.user = user;
